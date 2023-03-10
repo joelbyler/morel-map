@@ -44,3 +44,19 @@ You don’t have to ever use `eject`. The curated feature set is suitable for sm
 You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
 
 To learn React, check out the [React documentation](https://reactjs.org/).
+
+
+
+NOTES:
+
+created app with following commands:
+```bash
+npx create-react-app morel-map --template typescript
+cd morel-map
+npm install leaflet
+npm install react-leaflet
+npm install -D @types/leaflet
+yarn add -D tailwindcss postcss autoprefixer
+yarn tailwindcss init -p
+npx storybook init
+```
